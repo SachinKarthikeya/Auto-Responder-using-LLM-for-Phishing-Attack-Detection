@@ -53,7 +53,7 @@ def store_in_database(content, content_type, content_class, response):
     except mysql.connector.Error as e:
         st.error(f"Error storing data in the database: {e}")
 
-st.title("Auto-responder using LLMs for phishing or alerts")
+st.title("Auto-Responder using LLM for Phishing Attack Detection")
 st.write("This application detects phishing emails, SMS messages, URLs and generates autoresponses accordingly")
 
 option = st.selectbox("Select the type of content to analyze:", ["Email", "Message", "URL"])
