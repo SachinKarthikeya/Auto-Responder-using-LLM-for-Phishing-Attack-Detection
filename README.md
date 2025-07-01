@@ -18,18 +18,6 @@ An intelligent auto-responding system that detects and classifies digital commun
 - **Database:** XAMPP (MySQL)
 - **LLM Runtime:** Ollama
 
-## 🖼️ System Architecture
-
-User Input (Email/SMS/URL)
-        ↓
-Preprocessing → ML Classifier (Scikit-Learn)
-        ↓
-Class Detected: Legitimate / Spam / Phishing
-        ↓
-LLM (Llama 3.2:1b via Ollama)
-        ↓
-Generated Response → Shown on UI
-
 📢 Future Improvements
 
 - Add support for voice messages
