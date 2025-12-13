@@ -14,7 +14,7 @@ An intelligent auto-responding system that detects and classifies digital commun
 ## 🧰 Tech Stack
 
 - **Frontend:** Streamlit
-- **Backend:** Python, Machine Learning (Random Forest Classifier, Support Vector Machine, Logistic Regression)
+- **ML Models:** Random Forest Classifier, Support Vector Machine, Logistic Regression
 - **Database:** XAMPP (MySQL)
 - **LLM Runtime:** Ollama
 
