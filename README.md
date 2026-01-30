@@ -4,22 +4,28 @@ An intelligent auto-responding system that detects and classifies digital commun
 
 ## 🚀 Features
 
-- Classifies user-provided content into **Legitimate**, **Spam**, or **Phishing**
-- Uses a fine-tuned **LLM (Llama 3.2:1b)** via Ollama for context-aware response generation
+- **Machine Learning Models**: Classify user-provided content 
+- **LLM (Llama 3.2:1b)**: Generate automated security-aware responses
+- **XAMPP (MySQL)**: Saves the classified content with the response 
 - Supports input formats like **Email**, **SMS Text**, and **URLs**
-- Automatically generates security-aware responses
-- Enhances protection against phishing attacks
-- Reduces manual workload in responding to malicious content
+- **Streamlit** for interactive web application
+
+## 📄 Workflow
+- User chooses the content type (Email, SMS, URL) via Streamlit and uploads the content
+- Trained ML models classify the content category between **Legitimate**, **Spam** or **Phishing**
+- Analyzing the content and classified category, the LLM generates an automated response relevant to the content
+- Saves the original content, predicted content category and generated response in a MySQL database
 
 ## 🧰 Tech Stack
 
 - **Frontend:** Streamlit
 - **ML Models:** Random Forest Classifier, Support Vector Machine, Logistic Regression
 - **Database:** XAMPP (MySQL)
-- **LLM Runtime:** Ollama
+- **LLM:** Llama3.2:1b 
 
 📢 Future Improvements
 
 - Add support for voice messages
+- Automated classification of content type 
 - Integrate with email clients for real-time scanning
 - Improve response personalization with user context
