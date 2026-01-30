@@ -23,7 +23,7 @@ An intelligent auto-responding system that detects and classifies digital commun
 - **Database:** XAMPP (MySQL)
 - **LLM:** Llama3.2:1b 
 
-📢 Future Improvements
+## 📢 Future Improvements
 
 - Add support for voice messages
 - Automated classification of content type 
