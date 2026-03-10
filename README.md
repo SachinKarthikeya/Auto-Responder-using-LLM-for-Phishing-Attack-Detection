@@ -25,7 +25,6 @@ An intelligent auto-responding system that detects and classifies digital commun
 
 ## 📢 Future Improvements
 
-- Add support for voice messages
 - Automated classification of content type 
 - Integrate with email clients for real-time scanning
 - Improve response personalization with user context
