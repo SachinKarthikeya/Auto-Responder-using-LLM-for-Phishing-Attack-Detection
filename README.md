@@ -6,7 +6,7 @@ An intelligent auto-responding system that detects and classifies digital commun
 
 - **Machine Learning Models**: Classify user-provided content 
 - **LLM (Llama 3.2:1b)**: Generate automated security-aware responses
-- **XAMPP (MySQL)**: Saves the classified content with the response 
+- **MongoDB**: Saves the classified content with the response 
 - Supports input formats like **Email**, **SMS Text**, and **URLs**
 - **Streamlit** for interactive web application
 
@@ -14,13 +14,13 @@ An intelligent auto-responding system that detects and classifies digital commun
 - User chooses the content type (Email, SMS, URL) via Streamlit and uploads the content
 - Trained ML models classify the content category between **Legitimate**, **Spam** or **Phishing**
 - Analyzing the content and classified category, the LLM generates an automated response relevant to the content
-- Saves the original content, predicted content category and generated response in a MySQL database
+- Saves the original content, predicted content category and generated response in MongoDB database
 
 ## 🧰 Tech Stack
 
 - **Frontend:** Streamlit
 - **ML Models:** Random Forest Classifier, Support Vector Machine, Logistic Regression
-- **Database:** XAMPP (MySQL)
+- **Database:** MongoDB
 - **LLM:** Llama3.2:1b 
 
 ## 📢 Future Improvements
