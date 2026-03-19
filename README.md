@@ -5,7 +5,7 @@ An intelligent auto-responding system that detects and classifies digital commun
 ## 🚀 Features
 
 - **Machine Learning Models**: Classify user-provided content 
-- **LLM (Llama 3.2:1b)**: Generate automated security-aware responses
+- **Llama 3.2:1b / Llama 3.1:8b**: Generate automated security-aware responses
 - **MongoDB**: Saves the classified content with the response 
 - Supports input formats like **Email**, **SMS Text**, and **URLs**
 - **Streamlit** for interactive web application
@@ -16,15 +16,31 @@ An intelligent auto-responding system that detects and classifies digital commun
 - Analyzing the content and classified category, the LLM generates an automated response relevant to the content
 - Saves the original content, predicted content category and generated response in MongoDB database
 
+## Versions
+
+For this project, there are two versions which work separately:
+
+**Version 1:**
+
+- No MongoDB database integrated
+- Changed the LLM from locally running Ollama model to API-based OpenAI model
+- Containerized the project using Docker and hosted using Render
+
+**Version 2:**
+
+- MongoDB database integrated
+- Original local Ollama model integrated
+- Docker containerization and Render hosting not performed.
+
 ## 🧰 Tech Stack
 
 - **Frontend:** Streamlit
+- **Backend**: Groq API
 - **ML Models:** Random Forest Classifier, Support Vector Machine, Logistic Regression
 - **Database:** MongoDB
-- **LLM:** Llama3.2:1b 
+- **LLM:** Llama3.2:1b / Llama3.1:8b(production)
 
 ## 📢 Future Improvements
 
-- Automated classification of content type 
-- Integrate with email clients for real-time scanning
+- Automated pipelines of email/sms/url for real-time scanning
 - Improve response personalization with user context
