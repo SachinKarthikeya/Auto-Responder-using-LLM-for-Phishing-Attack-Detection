@@ -35,12 +35,13 @@ For this project, there are two versions which work separately:
 ## 🧰 Tech Stack
 
 - **Frontend:** Streamlit
-- **Backend**: Groq API
 - **ML Models:** Random Forest Classifier, Support Vector Machine, Logistic Regression
 - **Database:** MongoDB
 - **LLM:** Llama3.2:1b / Llama3.1:8b(production)
+- **Deployment**: Docker & Render
 
 ## 📢 Future Improvements
 
 - Automated pipelines of email/sms/url for real-time scanning
 - Improve response personalization with user context
+- 
