@@ -16,7 +16,7 @@ An intelligent auto-responding system that detects and classifies digital commun
 - Analyzing the content and classified category, the LLM generates an automated response relevant to the content
 - Saves the original content, predicted content category and generated response in MongoDB database
 
-## Versions
+## 📁 Versions
 
 For this project, there are two versions which work separately:
 
@@ -44,4 +44,3 @@ For this project, there are two versions which work separately:
 
 - Automated pipelines of email/sms/url for real-time scanning
 - Improve response personalization with user context
-- 
